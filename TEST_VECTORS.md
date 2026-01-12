@@ -34,4 +34,4 @@ R = 0.5
 - E < 0 or E > 1
 - K <= 0
 
-## Note: Implementations should document numeric tolerance (if any). These vectors are chosen to be exactly representable in binary floating point in typical runtimes.
+## Note: Implementations should document numeric tolerance (if any). These vectors are chosen to be exactly representable in common binary floating-point formats.

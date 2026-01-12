@@ -52,8 +52,9 @@ Illustrative only. Non-canonical. Non-normative.
 
 ## Conformance Notes
 
+- K is provided by the caller; the canonical law does not define its value.
 - Inputs outside the allowed domain MUST be rejected (error/exception). No clamping.
-- This repository defines no policy for choosing F, E, or K.
-- Numerical behavior: reference values in TEST_VECTORS.md are decimal. Implementations should match these cases exactly or within a documented tolerance appropriate to their numeric type.
+- Numerical tolerance, if any, is implementation-defined and must be documented.
+- This repository is illustrative and non-production by design.
 
 ---
