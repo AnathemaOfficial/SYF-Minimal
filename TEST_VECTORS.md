@@ -33,3 +33,5 @@ R = 0.5
 - F < 0
 - E < 0 or E > 1
 - K <= 0
+
+## Note: Implementations should document numeric tolerance (if any). These vectors are chosen to be exactly representable in binary floating point in typical runtimes.
