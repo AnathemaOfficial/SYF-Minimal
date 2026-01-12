@@ -1,5 +1,14 @@
 # SYF-Minimal
 
+## Related Repositories
+
+- **SYF-Core** — Canonical law (immutable)  
+  https://github.com/AnathemaOfficial/SYF-Core
+
+- **SYF-Lab** — Experimental and observational framework  
+  https://github.com/AnathemaOfficial/SYF-Lab
+
+
 SYF-Minimal is a non-canonical, non-normative reference implementation designed to
 illustrate and test the invariant **R** defined in **SYFCORE**.
 
