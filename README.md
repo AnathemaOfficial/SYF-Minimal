@@ -8,6 +8,12 @@
 - **SYF-Lab** — Experimental and observational framework  
   https://github.com/AnathemaOfficial/SYF-Lab
 
+## Conformance Notes
+
+- **K** is provided by the caller; the canonical law does not define its value.
+- Inputs outside the allowed domain (**F ≥ 0**, **0 ≤ E ≤ 1**, **K > 0**) MUST be rejected (error/exception). No clamping.
+- Numerical tolerance, if any, is implementation-defined and must be documented by the implementation.
+- This repository is illustrative and non-production by design.
 
 SYF-Minimal is a non-canonical, non-normative reference implementation designed to
 illustrate and test the invariant **R** defined in **SYFCORE**.
@@ -49,12 +55,5 @@ syf-minimal/
 ## Status
 
 Illustrative only. Non-canonical. Non-normative.
-
-## Conformance Notes
-
-- K is provided by the caller; the canonical law does not define its value.
-- Inputs outside the allowed domain MUST be rejected (error/exception). No clamping.
-- Numerical tolerance, if any, is implementation-defined and must be documented.
-- This repository is illustrative and non-production by design.
 
 ---
